@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.container {
+  padding: 40px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.course-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  width: 250px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.course-image {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
